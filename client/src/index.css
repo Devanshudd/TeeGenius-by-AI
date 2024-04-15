@@ -91,10 +91,8 @@ input[type="file"] {
   display: none !important;
 }
 
-
-
 .section--container {
-  margin-top: 5vh;
+  /* margin-top: 2vh; */
   bottom: 20%;
   margin-left: 5vw;
 }
@@ -107,14 +105,14 @@ input[type="file"] {
 
 .section--container h1 {
   font-weight: 900;
-  font-size: 13rem;
+  font-size: 11rem;
   letter-spacing: -6px;
   font-style: italic;
   width: 30%;
   line-height: 10rem;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  bottom: 75%;
 }
-
 
 @media screen and (max-width: 600px) {
   .section--container {
@@ -135,12 +133,14 @@ input[type="file"] {
 
 .support--content {
   position: relative;
-  top: 5%;
   left: 8%;
+  margin-top: 10px;
+  bottom: 30%;
 }
 
 .support--content p {
   width: 350px;
-  margin-bottom: 48px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   line-height: 1.5rem;
 }
